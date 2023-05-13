@@ -1,0 +1,22 @@
+.popup__card {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  margin: calc(50vh - 165px) calc(50vw - 215px);
+  width: 430px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  z-index: 2;
+}
+
+@media (min-width: 320px) and (max-width: 879px) {
+  .popup__card {
+    width: 282px;
+    margin: calc(50vh - 161px) calc(50vw - 141px);
+  }
+}

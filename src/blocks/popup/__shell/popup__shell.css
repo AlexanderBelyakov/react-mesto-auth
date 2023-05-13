@@ -1,0 +1,4 @@
+.popup__shell {
+  display: flex;
+  flex-direction: column;
+}

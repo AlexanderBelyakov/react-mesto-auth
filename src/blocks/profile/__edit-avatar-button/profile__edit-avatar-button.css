@@ -1,0 +1,7 @@
+.profile__edit-avatar-button:hover {
+    display: block;
+    background-image: url(../../../images/eddit-avatar-button.png);
+    background-size: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

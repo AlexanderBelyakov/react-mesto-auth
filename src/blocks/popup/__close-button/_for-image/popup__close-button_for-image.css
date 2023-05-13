@@ -1,0 +1,14 @@
+.popup__close-button_for-image {
+  position: relative;
+  background-repeat: no-repeat;
+  align-self: flex-end;
+  right: -40px;
+  top: -8px;
+}
+
+@media (min-width: 320px) and (max-width: 879px) {
+  .popup__close-button_for-image {
+    right: 0;
+    top: -16px;
+  }
+}

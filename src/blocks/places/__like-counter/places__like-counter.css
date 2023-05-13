@@ -1,0 +1,12 @@
+.places__like-counter {
+    position: absolute;
+    bottom: 22px;
+    right: 24px;
+    width: 10px;
+    height: 13px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}

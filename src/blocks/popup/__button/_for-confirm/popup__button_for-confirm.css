@@ -1,0 +1,11 @@
+.popup__button_for-confirm {
+    position: relative;
+    margin-top: -10px;
+}
+
+@media (min-width: 320px) and (max-width: 879px) {
+    .popup__button_for-confirm {
+      right: 0;
+      bottom: 35px;
+    }
+  }

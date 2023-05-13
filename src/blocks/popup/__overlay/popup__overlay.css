@@ -1,0 +1,12 @@
+.popup__overlay {
+    width: 100%;
+    min-height: 150%;
+    position: fixed;
+    content: '';
+    top: 0;
+    left: 0;
+    opacity: .5;
+    background: #000000;
+    z-index: 1;
+}
+

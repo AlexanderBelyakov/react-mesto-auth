@@ -1,0 +1,14 @@
+.profile__info {
+  color: #FFFFFF;
+  width: 294px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .profile__info {
+    margin-left: 0;
+  }
+}

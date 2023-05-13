@@ -1,0 +1,12 @@
+.popup__card_for-confirm {
+    height: 181px;
+    margin: calc(50vh - 110px) calc(50vw - 224px);
+}
+
+@media (min-width: 320px) and (max-width: 879px) {
+    .popup__card_for-confirm {
+      width: 282px;
+      height: 140px;
+      margin: calc(50vh - 161px) calc(50vw - 141px);
+    }
+}
