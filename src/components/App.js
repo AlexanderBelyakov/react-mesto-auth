@@ -28,7 +28,7 @@ function App() {
   const [isSuccessText, setIsSuccessText] = React.useState(null);
   const [isSuccessImage, setIsSuccessImage] = React.useState(null);
   const [isInfoTooltipOpen, showInfoTooltip] = React.useState(false);
-  const [userEmail, setUserEmail] = React.useState("");
+  const [userEmail, setUserEmail] = React.useState(null);
 
   const navigate = useNavigate();
 
