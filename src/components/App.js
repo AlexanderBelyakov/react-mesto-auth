@@ -64,18 +64,20 @@ function App() {
   
   function handleSignOut() {
     setIsLoggedIn(false);
+    localStorage.removeItem("jwt");
   }
 
   React.useEffect(() => {
+    if (isLoggedIn === true) {
     Promise.all([api.getUserInfo(), api.getInitialCards()])
-      .then(([res1, res2]) => {
-        setCurrentUser(res1);
-        getCards(res2);
+      .then(([user, cards]) => {
+        setCurrentUser(user);
+        getCards(cards);
       })
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }}, [isLoggedIn]);
 
   React.useEffect(() => {
     const jwt = localStorage.getItem("jwt");
