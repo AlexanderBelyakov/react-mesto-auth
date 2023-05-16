@@ -1,0 +1,9 @@
+.popup__card_for-sign-up {
+    height: 330px;
+}
+
+@media (min-width: 320px) and (max-width: 879px) {
+    .popup__card_for-sign-up {
+        height: 308px
+    }
+}
